@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zk-fair-swap"
+version = "0.1.0"
+description = ""
+authors = ["Greatsol <crp_main@mail.ru>"]
+readme = "README.md"
+packages = [{include = "zk_fair_swap"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+web3 = "^6.13.0"
+loguru = "^0.7.2"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
